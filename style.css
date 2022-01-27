@@ -1,0 +1,59 @@
+.contenedor {  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". ojo1 ojo1 . . ojo2 ojo2 ."
+    ". ojo1 ojo1 . . ojo2 ojo2 ."
+    ". . . boca boca . . ."
+    ". . boca1 boca boca boca2 . ."
+    ". . boca1 boca boca boca2 . ."
+    ". . boca1 . . boca2 . .";
+}
+
+.ojo1 { grid-area: ojo1; }
+
+.ojo2 { grid-area: ojo2; }
+
+.boca { grid-area: boca; }
+
+.boca1 { grid-area: boca1; }
+
+.boca2 { grid-area: boca2; }
+
+
+html, body , .contenedor {
+  height: 100%;
+  margin: 0;
+  background-color: green;
+}
+
+/* For presentation only, no need to copy the code below */
+
+.contenedor * {
+  position: relative;
+}
+
+.contenedor *:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.ojo1,
+.ojo2,
+.boca,
+.boca1,
+.boca2{
+  background-color: black;
+}

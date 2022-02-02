@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:lightgrey;
+  }
+  div div{
+    background-color:white;
+    text-align:center;
+  }
+  .contenedor {  
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "L M X J V S D"
+      "GRIS3 UNO DOS TRES CUATRO CINCO SEIS"
+      "SIETE OCHO NUEVE DIEZ ONCE DOCE TRECE"
+      "CATORCE QUINCE DIECISEIS DIECISIETE DIECIOCHO DIECINUEVE VEINTE"
+      "VEINTIUNO VEINTIDOS VEINTITRES VEINTICUATRO VEINTICINCO VEINTISEIS VEINTISIETE"
+      "VEINTIOCHO GRIS GRIS GRIS GRIS GRIS GRIS"
+      "GRIS2 GRIS GRIS GRIS GRIS GRIS GRIS";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .L { grid-area: L;background-color:lightblue;}
+  
+  .M { grid-area: M;background-color:lightblue;}
+  
+  .X { grid-area: X;background-color:lightblue;}
+  
+  .J { grid-area: J;background-color:lightblue;}
+  
+  .V { grid-area: V;background-color:lightblue;}
+  
+  .S { grid-area: S;background-color:lightblue;}
+  
+  .D { grid-area: D;background-color:lightblue;}
+  
+  .UNO { grid-area: UNO;background-color:red}
+  
+  .DOS { grid-area: DOS;background-color:lightgreen}
+  
+  .TRES { grid-area: TRES; }
+  
+  .CUATRO { grid-area: CUATRO; }
+  
+  .CINCO { grid-area: CINCO; }
+  
+  .SEIS { grid-area: SEIS; }
+  
+  .SIETE { grid-area: SIETE; }
+  
+  .OCHO { grid-area: OCHO; }
+  
+  .NUEVE { grid-area: NUEVE; }
+  
+  .DIEZ { grid-area: DIEZ; }
+  
+  .ONCE { grid-area: ONCE; }
+  
+  .DOCE { grid-area: DOCE; }
+  
+  .TRECE { grid-area: TRECE; }
+  
+  .CATORCE { grid-area: CATORCE; }
+  
+  .QUINCE { grid-area: QUINCE; }
+  
+  .DIECISEIS { grid-area: DIECISEIS; }
+  
+  .DIECISIETE { grid-area: DIECISIETE; }
+  
+  .DIECIOCHO { grid-area: DIECIOCHO; }
+  
+  .DIECINUEVE { grid-area: DIECINUEVE; }
+  
+  .VEINTE { grid-area: VEINTE; }
+  
+  .VEINTIUNO { grid-area: VEINTIUNO; }
+  
+  .VEINTIDOS { grid-area: VEINTIDOS; }
+  
+  .VEINTITRES { grid-area: VEINTITRES; }
+  
+  .VEINTICUATRO { grid-area: VEINTICUATRO; }
+  
+  .VEINTICINCO { grid-area: VEINTICINCO; }
+  
+  .VEINTISEIS { grid-area: VEINTISEIS; }
+  
+  .VEINTISIETE { grid-area: VEINTISIETE; }
+  
+  .VEINTIOCHO { grid-area: VEINTIOCHO; }
+  
+  .GRIS { grid-area: GRIS;
+  background-color: lightgrey;}
+  
+  .GRIS2 {grid-area: GRIS2;background-color: lightgrey;}
+  
+  .GRIS3 {grid-area: GRIS3;background-color: lightgrey;}
+  
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* For presentation only, no need to copy the code below */
+  
+  .contenedor * {
+    position: relative;
+  }
+  
+  .contenedor *:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  

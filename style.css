@@ -99,12 +99,11 @@ body{
   
   .VEINTIOCHO { grid-area: VEINTIOCHO; }
   
-  .GRIS { grid-area: GRIS;
-  background-color: lightgrey;}
+  .GRIS { grid-area: GRIS;background-color: lightgrey;border: 0px;}
   
-  .GRIS2 {grid-area: GRIS2;background-color: lightgrey;}
+  .GRIS2 {grid-area: GRIS2;background-color: lightgrey;border: 0px;}
   
-  .GRIS3 {grid-area: GRIS3;background-color: lightgrey;}
+  .GRIS3 {grid-area: GRIS3;background-color: lightgrey;border: 0px;}
   
   
   html, body {

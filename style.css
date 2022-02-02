@@ -6,6 +6,7 @@ body{
   div div{
     background-color:white;
     text-align:center;
+    border: 2px solid black;
   }
   .contenedor {  
     display: grid;

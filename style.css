@@ -47,11 +47,11 @@ body{
   
   .DOS { grid-area: DOS;background-color:lightgreen}
   
-  .TRES { grid-area: TRES; }
+  .TRES { grid-area: TRES;background-color:lightgreen}
   
-  .CUATRO { grid-area: CUATRO; }
+  .CUATRO { grid-area: CUATRO;background-color:lightgreen}
   
-  .CINCO { grid-area: CINCO; }
+  .CINCO { grid-area: CINCO;background-color:lightgreen}
   
   .SEIS { grid-area: SEIS; }
   
